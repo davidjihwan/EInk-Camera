@@ -58,11 +58,11 @@ Eink setup:
 3. Ensure that the eink display is working using the "ThinkInk_Mono" example in the "Adafruit EPD" library. If this isn't working, make sure to check that you are using a good data transfer micro USB cable. I ran into an issue where the subpar cable I used couldn't handle both the camera and eink display being plugged in at the same time.
 
 Here's the wiring diagram for this project. <br />
-<a href="url"><img src="Media/Images/EInkFritzing.png" width="400">
+<a href="url"><img src="Media/Images/EInkFritzing.png" width="400"> 
 
 Here's what your wiring should look like:<br />
-<a href="url"><img src="Media/Images/EInkWiring.png.png" width="400"> <br />
-<a href="url"><img src="Media/Images/WiringFull.png" width="400">
+<a href="url"><img src="Media/Images/EInkWiring.png" width="400"> <br />
+<a href="url"><img src="Media/Images/WiringFull.png" width="400"> <br />
 
 Project Installation and Setup:
 1. Download the Arduino project file to write to serial output [here](Arduino/Eink_Camera/Eink_Camera.ino).
@@ -74,8 +74,12 @@ Project Installation and Setup:
 8. That's it! After you click the button, the image should be flashed onto the eink display. 
 
 Optional Enclosure: <br />
-<a href="url"><img src="Media/Images/enclosure_model.png" width="400">
+<a href="url"><img src="Media/Images/EnclosureModel.png" width="400">
 1. Download the file for the joystick enclosure [here](3D_Models/EInkStandScaled.stl) and print it.
 2. Screw the eink display onto the back of the enclosure using M2 screws and hold it in place using the corresponding nuts.
 The final enclosure looks like this: <br />
 <a href="url"><img src="Media/Images/Enclosure1.png" width="400">
+
+I also tried making a cardboard enclosure for the camera:
+<a href="url"><img src="Media/Images/CardboardEnclosure.png" width="400">
+
