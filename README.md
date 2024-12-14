@@ -4,7 +4,7 @@ A camera that uses an eInk display, using the Adafruit Grand Central M4.
 
 ## Summary
 This project is an eInk camera. The camera takes a picture of the user when they click a button, saves it to an SD card, then flashes it onto an eInk display. 
-More of the design details and process can be found in the writeup I did on [my website](https://davidjihwan.com/Eink-Camera)
+More of the design details and process can be found in the writeup I did on [my website](https://davidjihwan.com/Eink-Camera).
 
 ## Media
 Thresholding: <br />
