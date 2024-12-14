@@ -41,13 +41,15 @@ Optional (for display enclosure):
 This project also requires soldering.
 
 ## Quick Start Guide
+Download the [Arduino IDE](https://www.arduino.cc/en/software) on your computer of choice.
+
 Camera setup:
 1. Install the Adafruit OV7670 library using the Arduino Library Manager. 
 2. Follow Phillip Burgess' guide "Adafruit OV7670 Camera Library For SAMD51 Processors" to modify the OV7670 camera to interface with the Grand Central: 
 [https://learn.adafruit.com/adafruit-ov7670-camera-library-samd51/hardware](https://learn.adafruit.com/adafruit-ov7670-camera-library-samd51/hardware)  
 Your camera should look like this after modification: <br />
 <a href="url"><img src="Media/Images/CameraSoldering1.png" width="400"> <br />
-<a href="url"><img src="Media/Images/CameraSoldering2.png" width="400">
+<a href="url"><img src="Media/Images/CameraSoldering2.png" width="400"> <br />
 Insert the camera into the Grand Central as detailed in the guide: <br />
 <a href="url"><img src="Media/Images/CameraAttached.png" width="400">
 4. Ensure that the camera is working using the "selfie" example in the "Adafruit OV7670" library. You don't need the TFT screen; just remove the SD card and check the images manually. 
@@ -80,6 +82,6 @@ Optional Enclosure: <br />
 The final enclosure looks like this: <br />
 <a href="url"><img src="Media/Images/Enclosure1.png" width="400">
 
-I also tried making a cardboard enclosure for the camera:
+I also tried making a cardboard enclosure for the camera: <br />
 <a href="url"><img src="Media/Images/CardboardEnclosure.png" width="400">
 
