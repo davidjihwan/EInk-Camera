@@ -1,7 +1,7 @@
 /*
 Author: David Jihwan
-TODO: github
-TODO: website
+Github: https://github.com/davidjihwan/eInk_Camera/tree/main
+Website: https://davidjihwan.com/eInk-Camera
 
 Takes a picture of the user when they click a button, saves it to an SD card, then flashes it onto an eInk display. 
 
