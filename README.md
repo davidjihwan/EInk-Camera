@@ -25,7 +25,8 @@ Closeup: <br />
 - [Adafruit 1.54" Monochrome eInk / ePaper Display with SRAM](http://www.adafruit.com/product/4196#tutorials)
 - [Adafruit EYESPI Breakout Board](http://www.adafruit.com/product/5613#tutorials)
 - [EYESPI Cable - 18 Pin 100mm long Flex PCB (FPC) A-B type](https://www.adafruit.com/product/5239#tutorials)
-- Micro USB cable
+- Micro USB cable (data)
+- SD Card
 - OV7670 Camera Module
 - 2x: 2.2k resistors
 - Breadboard
@@ -33,18 +34,28 @@ Closeup: <br />
 - M-M jumper wires
 - Wires
 - Pushbutton
+  
+Optional (for display enclosure):
+- 2x: M2 screws & nuts
 
 This project also requires soldering.
 
 ## Quick Start Guide
-Camera Setup:
-
-![Image of the camera in the Grand Central](Media/Images/CameraAttached.png)
+Camera setup:
+1. Install the Adafruit OV7670 library using the Arduino Library Manager. 
+2. Follow Phillip Burgess' guide "Adafruit OV7670 Camera Library For SAMD51 Processors" to modify the OV7670 camera to interface with the Grand Central: 
+[https://learn.adafruit.com/adafruit-ov7670-camera-library-samd51/hardware](https://learn.adafruit.com/adafruit-ov7670-camera-library-samd51/hardware)  
+Your camera should look like this after modification:
+![Image of the modified camera](Media/Images/CameraSoldering1.png)
+![Image of the modified camera](Media/Images/CameraSoldering2.png)
+Insert the camera into the Grand Central as detailed in the guide:
+![Image of the modified camera in the Grand Central](Media/Images/CameraAttached.png)
+3. Ensure that the camera is working using the "selfie" example in the "Adafruit OV7670" library. You don't need the TFT screen; just remove the SD card and check the images manually. 
 
 Eink setup:
-1. Solder the pins that came with the ESP32 onto the board.
-2. Insert the ESP-32 into the breadboard following the wiring diagram below.
-3. Connect the pins following the wiring diagram below. Take note that the jumper wires connecting the joystick to the breadboard should be male to female wires.
+1. Install the Adafruit EPD library using the Arduino Library Manager. 
+2. Wire connections following the wiring diagram below.
+3. Ensure that the eink display is working using the "ThinkInk_Mono" example in the "Adafruit EPD" library. If this isn't working, make sure to check that you are using a good data transfer micro USB cable. I ran into an issue where the subpar cable I used couldn't handle both the camera and eink display being plugged in at the same time.
 
 Here's the wiring diagram for this project. 
 ![Image of the Fritzing wiring diagram](Media/Images/EInkFritzing.png)
@@ -59,13 +70,11 @@ Project Installation and Setup:
 4. Change your board: Tools > Boards > Adafruit SAMD Boards > Adafruit Grand Central M4
 5. Change the port: Tools > Port > your-port (mac users should select “wchusb")
 6. Plug the Grand Central into your computer.
-7. Press the upload button (at the top left of the window) to upload your code to the board. 
+7. Press the upload button (at the top left of the window) to upload your code to the board. Arduino should automatically download any missing dependencies. 
 8. That's it! After you click the button, the image should be flashed onto the eink display. 
 
 Optional Enclosure:
 <a href="url"><img src="Media/Images/enclosure_model.png" width="400">
-1. Download the files for the joystick enclosure [TODO: here]
-2. 3D print the top and bottom sections of the enclosure using your printer of choice. 
-3. Insert the head inserts into the designated locations on the bottom section of the enclosure. [TODO: this] is a good tutorial for heat inserts.
-8. Screw the sections together using the 3mm by 7?mm [TODO] screws. Place the cap back onto the joystick.
-![Picture of the assembled enclosure](Media/Images/enclosure_assembled.png)
+1. Download the file for the joystick enclosure [here](3D_Models/EInkStandScaled.stl) and print it.
+2. Screw the eink display onto the back of the enclosure using M2 screws and hold it in place using the corresponding nuts.
+![Picture of the enclosure](Media/Images/Enclosure1.png)
