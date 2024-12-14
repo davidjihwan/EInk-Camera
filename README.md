@@ -7,16 +7,16 @@ This project is an eInk camera. The camera takes a picture of the user when they
 More of the design details and process can be found in the writeup I did on [my website](https://davidjihwan.com/TODO)
 
 ## Media
-Thresholding:
+Thresholding: <br />
 ![Gif of the camera's thresholding function](Media/Gifs/threshold.gif)
 
-Dithering (default):
+Dithering (default): <br />
 ![Gif of the camera's dithering function](Media/Gifs/dither1.gif)
 
-The full interaction (dithering):
+The full interaction (dithering): <br />
 ![Gif of the full camera interaction](Media/Gifs/fullInteraction.gif)
 
-Closeup:
+Closeup: <br />
 ![Gif of the full camera interaction](Media/Gifs/eInkCloseup.gif)
 
 ## Materials
