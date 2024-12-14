@@ -46,11 +46,11 @@ Camera setup:
 2. Follow Phillip Burgess' guide "Adafruit OV7670 Camera Library For SAMD51 Processors" to modify the OV7670 camera to interface with the Grand Central: 
 [https://learn.adafruit.com/adafruit-ov7670-camera-library-samd51/hardware](https://learn.adafruit.com/adafruit-ov7670-camera-library-samd51/hardware)  
 Your camera should look like this after modification:
-![Image of the modified camera](Media/Images/CameraSoldering1.png)
-![Image of the modified camera](Media/Images/CameraSoldering2.png)
+<a href="url"><img src="Media/Images/CameraSoldering1.png" width="400">
+<a href="url"><img src="Media/Images/CameraSoldering2.png" width="400">
 Insert the camera into the Grand Central as detailed in the guide:
-![Image of the modified camera in the Grand Central](Media/Images/CameraAttached.png)
-3. Ensure that the camera is working using the "selfie" example in the "Adafruit OV7670" library. You don't need the TFT screen; just remove the SD card and check the images manually. 
+<a href="url"><img src="Media/Images/CameraAttached.png" width="400">
+4. Ensure that the camera is working using the "selfie" example in the "Adafruit OV7670" library. You don't need the TFT screen; just remove the SD card and check the images manually. 
 
 Eink setup:
 1. Install the Adafruit EPD library using the Arduino Library Manager. 
@@ -58,11 +58,11 @@ Eink setup:
 3. Ensure that the eink display is working using the "ThinkInk_Mono" example in the "Adafruit EPD" library. If this isn't working, make sure to check that you are using a good data transfer micro USB cable. I ran into an issue where the subpar cable I used couldn't handle both the camera and eink display being plugged in at the same time.
 
 Here's the wiring diagram for this project. 
-![Image of the Fritzing wiring diagram](Media/Images/EInkFritzing.png)
+<a href="url"><img src="Media/Images/EInkFritzing.png" width="400">
 
 Here's what your wiring should look like:
-![Image of the breadboard with wiring, no camera](Media/Images/EInkWiring.png)
-![Image of the breadboard with wiring](Media/Images/WiringFull.png)
+<a href="url"><img src="Media/Images/EInkWiring.png.png" width="400">
+<a href="url"><img src="Media/Images/WiringFull.png" width="400">
 
 Project Installation and Setup:
 1. Download the Arduino project file to write to serial output [here](Arduino/Eink_Camera/Eink_Camera.ino).
@@ -77,4 +77,4 @@ Optional Enclosure:
 <a href="url"><img src="Media/Images/enclosure_model.png" width="400">
 1. Download the file for the joystick enclosure [here](3D_Models/EInkStandScaled.stl) and print it.
 2. Screw the eink display onto the back of the enclosure using M2 screws and hold it in place using the corresponding nuts.
-![Picture of the enclosure](Media/Images/Enclosure1.png)
+3. <a href="url"><img src="Media/Images/Enclosure1.png" width="400">
