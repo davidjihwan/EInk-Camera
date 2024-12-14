@@ -1,4 +1,4 @@
-# EInk Camera
+# Eink Camera
 A camera that uses an eInk display, using the Adafruit Grand Central M4.
 ![Image of the eink camera](Media/Images/ProjectPic.png)
 
